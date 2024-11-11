@@ -16,7 +16,14 @@
     - [spp-sc2](https://github.com/cpp-sc2/cpp-sc2)
 
 ## Tutorials
-TODO
+### Development environment setup
+- [Linux](./tutorials/setup-linux/)
+- [Windows](./tutorials/setup-windows/)
+- [MacOS](./tutorials/setup-macos/)
+
+### Bot development
+- [NodeJs](./tutorials/bot-node/)
+- [Python](./tutorials/bot-python/)
 
 ## Examples
 - [node](/examples/node/)
