@@ -17,17 +17,17 @@
 
 ## Tutorials
 ### Development environment setup
-- [Linux](./tutorials/setup-linux/)
-- [Windows](./tutorials/setup-windows/)
-- [MacOS](./tutorials/setup-macos/)
+- [Linux](./tutorials/setup-linux/README.md)
+- [Windows](./tutorials/setup-windows/README.md)
+- [MacOS](./tutorials/setup-macos/README.md)
 
 ### Bot development
-- [NodeJs](./tutorials/bot-node/)
-- [Python](./tutorials/bot-python/)
+- [NodeJs](./tutorials/bot-node/README.md)
+- [Python](./tutorials/bot-python/README.md)
 
 ## Examples
-- [node](/examples/node/)
-- [python](/examples/python/)
+- [node](/examples/node/README.md)
+- [python](/examples/python/README.md)
 
 Another awesome list: https://github.com/aiarena/awesome-sc2-ai
 
