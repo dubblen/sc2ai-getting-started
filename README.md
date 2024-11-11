@@ -1,5 +1,7 @@
 # SC2AI getting started
 
+The Open StarCraft 2 WebSocket API provides a flexible and accessible way to develop AI bots for StarCraft II. Through this API, you can send commands and receive real-time game state information, making it ideal for creating intelligent and responsive bots. This repository is a beginner-friendly guide to setting up your environment, connecting to StarCraft II via WebSocket, and implementing basic bot logic.
+
 ## APIs
 - NodeJs:
     - [node-sc2](https://github.com/node-sc2/core/tree/wip_0.1.0)
