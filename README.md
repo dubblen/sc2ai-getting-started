@@ -15,7 +15,7 @@ The Open StarCraft 2 WebSocket API provides a flexible and accessible way to dev
 - Java:
     - [ocraft-s2client](https://github.com/ocraft/ocraft-s2client) (not tested)
 - C++:
-    - [spp-sc2](https://github.com/cpp-sc2/cpp-sc2)
+    - [cpp-sc2](https://github.com/cpp-sc2/cpp-sc2)
 
 ## Tutorials
 ### Development environment setup
