@@ -33,7 +33,10 @@ Trough Heroic Launcher, you can specify startup options for the StarCraft II gam
 button on the StarCraft II game tile:
 
 ![settings-button.png](./images/settings-button.png)
+
 and in the **Advanced** tab, add the following options:
+
+
 ![game-arguments.png](./images/game-arguments.png)
 What these options do:
 
