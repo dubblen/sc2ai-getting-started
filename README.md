@@ -7,8 +7,12 @@ guide to setting up your environment, connecting to StarCraft II via WebSocket, 
 
 To do so, you have to do 2 things:
 
-1. Get & Configure StarCraft II
-2. Write your bot using your favorite programming language (or the one which has the best API)
+1. [Get & Configure StarCraft II](#1-get--configure-starcraft-ii)
+    - [Linux](./tutorials/setup-linux/README.md)
+    - Windows
+    - MacOS
+2. [Write your bot using your favorite programming language (or the one which has the best API)](#2-write-your-bot)
+    - 
 
 ## 1. Get & Configure StarCraft II
 
@@ -35,9 +39,11 @@ TBD
 Bot is a piece of code that connects to the StarCraft II game and sends commands to it. You can write your bot in any
 programming language you like, but some languages may have libraries that make it easier to interact with the game.
 
+### Choose the right API for you
 
-So your next step is to choose a programming language and a library that you will use to write your bot. Here are some
-options:
+So your next step is to choose a programming language and a library that you will use to write your bot.
+
+Here are some options:
 
 - Node:
     - [node-sc2 (tested)](https://github.com/node-sc2/core/tree/wip_0.1.0) (tested)
@@ -53,8 +59,13 @@ options:
 - C++:
     - [cpp-sc2](https://github.com/cpp-sc2/cpp-sc2)
 
+
+### Make your first bot running
+
 Once you've chosen your language and library, you can start developing your bot by setting up the development environment
-and installing the necessary dependencies. We have prepared tutorials for some of the most popular languages:
+and installing the necessary dependencies.
+
+We have prepared tutorials for some of the most popular languages:
 
 - [Node & node-sc2](./tutorials/bot-node/README.md)
 - others TBD
