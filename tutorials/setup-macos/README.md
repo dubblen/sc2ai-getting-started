@@ -1,1 +1,0 @@
-# Development environment on MacOS host

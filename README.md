@@ -26,6 +26,9 @@ found [here](./tutorials/setup-linux/README.md).
 ### Windows 
 
 TBD
+### MacOS
+
+TBD
 
 ## 2. Write your bot
 
@@ -54,3 +57,4 @@ Once you've chosen your language and library, you can start developing your bot 
 and installing the necessary dependencies. We have prepared tutorials for some of the most popular languages:
 
 - [NodeJs & node-sc2](./tutorials/bot-node/README.md)
+- others TBD
