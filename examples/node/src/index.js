@@ -22,7 +22,7 @@ const bot = createAgent({
         const myBase = units.getById(COMMANDCENTER);
         console.log(myBase);
         try {
-            actions.train(SCV);
+            await actions.train(SCV);
         } catch (error) {
             console.log(error)
         }
@@ -38,7 +38,7 @@ const engine = createEngine({
 engine.connect().then(async (ping) => {
     console.log(ping)
 
-    let response = await engine.createGame('Equilibrium513AIE.SC2Map', [
+    let response = await engine.createGame('BerlingradAIE.SC2Map', [
         createPlayer({
             race: Race.TERRAN,
             type: PlayerType.PARTICIPANT
@@ -47,7 +47,7 @@ engine.connect().then(async (ping) => {
             race: Race.RANDOM,
             difficulty: Difficulty.EASY,
         })
-    ], true);
+    ], false);
 
     console.log(response)
 
