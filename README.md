@@ -18,8 +18,7 @@ Depending on your operating system, your next steps will vary:
 ### Linux
 
 The recommended way is to install StarCraft II using [Heroic Games Launcher](https://heroicgameslauncher.com/). It's a
-great
-tool that allows you to install and manage games from the Epic Games Store on Linux and do all the necessary magic to
+great tool that allows you to install and manage games on Linux and do all the necessary magic to
 make it work (Wine/Proton etc.). Complete guide how to prepare your Linux machine for StarCraft II can be
 found [here](./tutorials/setup-linux/README.md).
 
@@ -39,8 +38,8 @@ programming language you like, but some languages may have libraries that make i
 So your next step is to choose a programming language and a library that you will use to write your bot. Here are some
 options:
 
-- NodeJs (tested):
-    - [node-sc2 (tested)](https://github.com/node-sc2/core/tree/wip_0.1.0)
+- Node:
+    - [node-sc2 (tested)](https://github.com/node-sc2/core/tree/wip_0.1.0) (tested)
     - [s2client-api-typescript](https://github.com/Zamiell/s2client-api-typescript) (not tested)
 - Python:
     - [python-sc2](https://github.com/BurnySc2/python-sc2)
@@ -56,5 +55,8 @@ options:
 Once you've chosen your language and library, you can start developing your bot by setting up the development environment
 and installing the necessary dependencies. We have prepared tutorials for some of the most popular languages:
 
-- [NodeJs & node-sc2](./tutorials/bot-node/README.md)
+- [Node & node-sc2](./tutorials/bot-node/README.md)
 - others TBD
+
+
+Big UP to [AI Arena](https://github.com/aiarena/awesome-sc2-ai)
