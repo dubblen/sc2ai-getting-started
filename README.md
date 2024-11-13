@@ -51,7 +51,7 @@ options:
 - Java:
     - [ocraft-s2client](https://github.com/ocraft/ocraft-s2client) (not tested)
 - C++:
-    - [spp-sc2](https://github.com/cpp-sc2/cpp-sc2)
+    - [cpp-sc2](https://github.com/cpp-sc2/cpp-sc2)
 
 Once you've chosen your language and library, you can start developing your bot by setting up the development environment
 and installing the necessary dependencies. We have prepared tutorials for some of the most popular languages:
