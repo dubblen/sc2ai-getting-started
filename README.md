@@ -58,7 +58,7 @@ Here are some options:
 - Java:
     - [ocraft-s2client](https://github.com/ocraft/ocraft-s2client) (not tested)
 - C++:
-    - [cpp-sc2](https://github.com/cpp-sc2/cpp-sc2)
+    - [cpp-sc2](https://github.com/cpp-sc2/cpp-sc2) (not tested)
 
 
 ### Make your first bot running
