@@ -19,8 +19,9 @@ Depending on your operating system, your next steps will vary:
 
 The recommended way is to install StarCraft II using [Heroic Games Launcher](https://heroicgameslauncher.com/). It's a
 great tool that allows you to install and manage games on Linux and do all the necessary magic to
-make it work (Wine/Proton etc.). Complete guide how to prepare your Linux machine for StarCraft II can be
-found [here](./tutorials/setup-linux/README.md).
+make it work (Wine/Proton etc.).
+
+Complete guide how to prepare your Linux machine for StarCraft II can be found [here](./tutorials/setup-linux/README.md).
 
 ### Windows 
 
