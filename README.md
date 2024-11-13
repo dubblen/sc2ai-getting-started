@@ -50,7 +50,7 @@ Here are some options:
     - [node-sc2 (tested)](https://github.com/node-sc2/core/tree/wip_0.1.0) (tested)
     - [s2client-api-typescript](https://github.com/Zamiell/s2client-api-typescript) (not tested)
 - Python:
-    - [python-sc2](https://github.com/BurnySc2/python-sc2)
+    - [python-sc2](https://github.com/BurnySc2/python-sc2) (tested)
 - Rust:
     - [rust-sc2](https://github.com/UltraMachine/rust-sc2) (not tested)
 - Go:
