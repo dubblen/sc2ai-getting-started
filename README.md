@@ -1,10 +1,43 @@
-# SC2AI getting started
+# SC2AI - StarCraft II AI Development
 
-The Open StarCraft 2 WebSocket API provides a flexible and accessible way to develop AI bots for StarCraft II. Through this API, you can send commands and receive real-time game state information, making it ideal for creating intelligent and responsive bots. This repository is a beginner-friendly guide to setting up your environment, connecting to StarCraft II via WebSocket, and implementing basic bot logic.
+So you want to create an AI bot for StarCraft II huh?
 
-## APIs
-- NodeJs:
-    - [node-sc2](https://github.com/node-sc2/core/tree/wip_0.1.0)
+You've come to the right place! This repository is a beginner-friendly
+guide to setting up your environment, connecting to StarCraft II via WebSocket, and implementing basic bot logic.
+
+To do so, you have to do 2 things:
+
+1. Get & Configure StarCraft II
+2. Write your bot using your favorite programming language (or the one which has the best API)
+
+## 1. Get & Configure StarCraft II
+
+All you need is to have a way how to run StarCraft II on your Linux machine and pass it the necessary arguments.
+Depending on your operating system, your next steps will vary:
+
+### Linux
+
+The recommended way is to install StarCraft II using [Heroic Games Launcher](https://heroicgameslauncher.com/). It's a
+great
+tool that allows you to install and manage games from the Epic Games Store on Linux and do all the necessary magic to
+make it work (Wine/Proton etc.). Complete guide how to prepare your Linux machine for StarCraft II can be
+found [here](./tutorials/setup-linux/README.md).
+
+### Windows 
+
+TBD
+
+## 2. Write your bot
+
+Bot is a piece of code that connects to the StarCraft II game and sends commands to it. You can write your bot in any
+programming language you like, but some languages may have libraries that make it easier to interact with the game.
+
+
+So your next step is to choose a programming language and a library that you will use to write your bot. Here are some
+options:
+
+- NodeJs (tested):
+    - [node-sc2 (tested)](https://github.com/node-sc2/core/tree/wip_0.1.0)
     - [s2client-api-typescript](https://github.com/Zamiell/s2client-api-typescript) (not tested)
 - Python:
     - [python-sc2](https://github.com/BurnySc2/python-sc2)
@@ -17,20 +50,7 @@ The Open StarCraft 2 WebSocket API provides a flexible and accessible way to dev
 - C++:
     - [spp-sc2](https://github.com/cpp-sc2/cpp-sc2)
 
-## Tutorials
-### Development environment setup
-- [Linux](./tutorials/setup-linux/README.md)
-- [Windows](./tutorials/setup-windows/README.md)
-- [MacOS](./tutorials/setup-macos/README.md)
+Once you've chosen your language and library, you can start developing your bot by setting up the development environment
+and installing the necessary dependencies. We have prepared tutorials for some of the most popular languages:
 
-### Bot development
-- [NodeJs](./tutorials/bot-node/README.md)
-- [Python](./tutorials/bot-python/README.md)
-
-## Examples
-- [node](/examples/node/README.md)
-- [python](/examples/python/README.md)
-
-Another awesome list: https://github.com/aiarena/awesome-sc2-ai
-
-Big UP to https://github.com/aiarena
+- [NodeJs & node-sc2](./tutorials/bot-node/README.md)
