@@ -12,7 +12,8 @@ To do so, you have to do 2 things:
     - Windows
     - MacOS
 2. [Write your bot using your favorite programming language (or the one which has the best API)](#2-write-your-bot)
-    - 
+    - [Choose the right api](#choose-the-right-api-for-you)
+    - [Tutorial](#make-your-first-bot-running)
 
 ## 1. Get & Configure StarCraft II
 
