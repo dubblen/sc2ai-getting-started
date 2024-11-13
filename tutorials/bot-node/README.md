@@ -94,3 +94,5 @@ npm start
 ```
 
 After a few seconds, you should see the bot connecting to the game and starting to play.
+
+You can find this code in the [Example nodejs bot](../../examples/nodejs-bot) directory.

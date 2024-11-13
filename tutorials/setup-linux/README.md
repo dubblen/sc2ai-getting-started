@@ -10,14 +10,14 @@
 4. **Get the Latest Proton-GE Version**
     - Open Heroic Launcher, select **Wine Manager** from the left menu.
     - In the upper tab, go to **Proton-GE** and download the latest Proton-GE version.
-      ![[wine-manager.png]]
+      ![wine-manager.png](./images/wine-manager.png)
 5. **Add StarCraft II to Heroic Library**
     - In Heroic Launcher, click the **Add Game** button and set up the following details:
         - **App Title**: StarCraft II
         - **App Image**: This should autofill.
         - **Platform**: Ensure **Windows** is selected.
     - Click **Show Wine Settings** and under **Wine Version**, select **Proton-GE Latest**.
-      ![[wine-version.png]]
+      ![wine-version.png](./images/wine-version.png)
     - Enable **Run Installer First**. When prompted, locate and select the downloaded StarCraft II executable, then
       follow the installation instructions.
     - After successful installation, set the **Executable** to **SC2Switcher_x64.exe**, typically located at:
@@ -31,9 +31,10 @@
 
 Trough Heroic Launcher, you can specify startup options for the StarCraft II game. To do this, click the **Settings**
 button on the StarCraft II game tile:
-![[Pasted image 20241113105326.png]]
+
+![settings-button.png](./images/settings-button.png)
 and in the **Advanced** tab, add the following options:
-![[Pasted image 20241113105426.png]]
+![game-arguments.png](./images/game-arguments.png)
 What these options do:
 
 - **API listen enable**: Set the StarCraft II client API listen port using `-listen 127.0.0.1 -port 8084`. This will
