@@ -128,9 +128,9 @@ Create new directory called `ex_main` next to your `main.rs` file.
 mkdir -p src/ex_main
 ```
 
-Put [this mod.rs]() file into the `ex_main` directory.
+Put [this mod.rs](https://raw.githubusercontent.com/dubblen/sc2ai-getting-started/refs/heads/main/examples/rust/src/ex_main/mod.rs) file into the `ex_main` directory.
 ```bash
-curl -o src/ex_main/mod.rs https://github.com
+curl -o src/ex_main/mod.rs https://raw.githubusercontent.com/dubblen/sc2ai-getting-started/refs/heads/main/examples/rust/src/ex_main/mod.rs
 ```
 
 Add dependency required by the `ex_main` wrapper to the `Cargo.toml`:
