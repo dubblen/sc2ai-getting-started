@@ -22,7 +22,7 @@ cargo new my_bot; cd my_bot
 nano Cargo.toml
 ```
 
-Add `rust-sc2 = { git = "https://github.com/UltraMachine/rust-sc2" }` to the `[dependencies]` block.
+Add `rust-sc2 = { git = "https://github.com/UltraMachine/rust-sc2" }` into the `[dependencies]` block.
 
 The final result should look similar to this:
 
