@@ -11,12 +11,12 @@ and the [rust-sc2](https://github.com/UltraMachine/rust-sc2) library.
 
 ## Setting up the project
 ### 1. Project & dependencies
-#### Create a new project directory, initialize it with cargo and move into it:
+#### Create a new project directory, initialize it with cargo and move into it
 ```bash
 cargo new my_bot; cd my_bot
 ```
 
-#### Add sc2-rust library dependenci to Cargo.toml:
+#### Add sc2-rust library dependenci to Cargo.toml
 ```bash
 # open Cargo.toml with your favourite text editor
 nano Cargo.toml
@@ -68,7 +68,7 @@ fn main() -> SC2Result<()> {
     )
 }
 ```
-#### Replace the map name.
+#### Replace the map name
 Look into your Starcraft 2 install path and find the `maps` directory. Choose one of the maps and paste it's filename into the code.
 
 ### 3. Running the bot
