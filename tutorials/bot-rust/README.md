@@ -9,7 +9,7 @@ and the [rust-sc2](https://github.com/UltraMachine/rust-sc2) library.
 	- [Project & dependencies](#1-project--dependencies)
 	- [Bot code](#2-bot-code)
 	- [Running the bot](#3-running-the-bot)
-	- [Build the bot for a leadder game](#4-build-the-bot-for-a-leadder-game)
+	- [Build the bot for a leader game](#4-build-the-bot-for-a-leader-game)
 
 ## Prerequisites
 
@@ -127,7 +127,7 @@ Just simply start the bot:
 cargo run
 ```
 
-### 4. Build the bot for a leadder game
+### 4. Build the bot for a leader game
 The LeaderServer grade bot requires to accept few command line parameters (`--LeaderServer`, `--OpponentId`, `--GamePort`).
 
 You can implement this yourself or you can simply extend your bot with premade wrapper for your main function.
