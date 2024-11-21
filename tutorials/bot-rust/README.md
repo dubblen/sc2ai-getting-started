@@ -70,6 +70,7 @@ fn main() -> SC2Result<()> {
 ```
 #### Replace the map name
 Look into your Starcraft 2 install path and find the `maps` directory. Choose one of the maps and paste it's filename into the code.
+Create the `maps` directory If there is not any and put there some maps that you can download [here](https://aiarena.net/wiki/184/plugin/attachments/download/39/).
 
 ### 3. Running the bot
 The library is able to run the game with the correct setup on Windows, MacOS and Linux (using wine).
