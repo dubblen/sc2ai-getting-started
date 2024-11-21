@@ -3,6 +3,14 @@
 This tutorial will guide you through setting up a development environment for creating a StarCraft II bot using Rust
 and the [rust-sc2](https://github.com/UltraMachine/rust-sc2) library.
 
+Content:
+- [Prerequisites](#setting-up-the-project)
+- [Setting up the project](#setting-up-the-project)
+	- [Project & dependencies](#1-project--dependencies)
+	- [Bot code](#2-bot-code)
+	- [Running the bot](#3-running-the-bot)
+	- [Build the bot for a leadder game](#4-build-the-bot-for-a-leadder-game)
+
 ## Prerequisites
 
 - ready StarCraft II installation (see [here](../../README.md#1-get--configure-starcraft-ii) how to install & configure it)
