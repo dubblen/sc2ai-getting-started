@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 rust-sc2 = { git = "https://github.com/UltraMachine/rust-sc2" }
+clap = { version = "4.5.21", features = ["derive"] }
 
 [features]
 wine_sc2 = ["rust-sc2/wine_sc2"]

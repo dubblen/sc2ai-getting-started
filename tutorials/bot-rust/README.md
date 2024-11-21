@@ -16,7 +16,7 @@ and the [rust-sc2](https://github.com/UltraMachine/rust-sc2) library.
 cargo new my_bot; cd my_bot
 ```
 
-#### Add sc2-rust library dependenci to Cargo.toml
+#### Add sc2-rust library dependency to the `Cargo.toml`
 ```bash
 # open Cargo.toml with your favourite text editor
 nano Cargo.toml
@@ -120,6 +120,55 @@ cargo run
 ```
 
 ### 4. Build the bot for a leadder game
+The LeaderServer grade bot requires to accept few command line parameters (`--LeaderServer`, `--OpponentId`, `--GamePort`).
+
+You can implement this yourself or you can simply extend your bot with premade wrapper for your main function.
+Create new directory called `ex_main` next to your `main.rs` file.
+```bash
+mkdir -p src/ex_main
+```
+
+Put [this mod.rs]() file into the `ex_main` directory.
+```bash
+curl -o src/ex_main/mod.rs https://github.com
+```
+
+Add dependency required by the `ex_main` wrapper to the `Cargo.toml`:
+```toml
+[dependencies]
+rust-sc2 = { git = "https://github.com/UltraMachine/rust-sc2" }
+clap = { version = "4.5.21", features = ["derive"] }
+```
+
+Replace the main function in the main.rs file.
+
+Replace this:
+```rust
+fn main() -> SC2Result<()> {
+    let mut bot = WorkerRush::default();
+    run_vs_computer(
+        &mut bot,
+        Computer::new(Race::Random, Difficulty::Medium, None),
+        "BerlingradAIE", // Map name
+        Default::default(),
+    )
+}
+```
+With this:
+```rust
+fn main() -> SC2Result<()> {
+    ex_main::main(ReaperRushAI::default())
+}
+```
+
+Depends on your IDE, you might need to import the `ex_main` function by adding this line to the top of the `main.rs` file:
+```rust
+mod ex_main;
+```  
+
+The `ex_main` function also extends the final executable by other command line arguments.
+You can print the full help message with `--help` command line argument.
+
 Run the build command with:
 ```bash
 cargo build

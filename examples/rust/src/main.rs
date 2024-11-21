@@ -1,3 +1,4 @@
+mod ex_main;
 use rust_sc2::prelude::*;
 
 #[bot]
@@ -16,11 +17,5 @@ impl Player for WorkerRush {
 }
 
 fn main() -> SC2Result<()> {
-    let mut bot = WorkerRush::default();
-    run_vs_computer(
-        &mut bot,
-        Computer::new(Race::Random, Difficulty::Medium, None),
-        "BerlingradAIE", // Map name
-        Default::default(),
-    )
+    ex_main::main(WorkerRush::default())
 }
