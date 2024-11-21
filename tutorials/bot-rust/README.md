@@ -128,4 +128,4 @@ It will create new directory `target` with another directory `debug` inside it. 
 This is the file that you will upload to the compatition.
 
 
-You can find this code in the [Example nodejs bot](../../examples/rust-bot) directory.
+You can find this code in the [Example rust bot](../../examples/rust-bot) directory.
