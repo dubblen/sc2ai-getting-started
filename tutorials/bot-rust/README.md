@@ -7,7 +7,7 @@ and the [rust-sc2](https://github.com/UltraMachine/rust-sc2) library.
 
 - ready StarCraft II installation (see [here](../../README.md#1-get--configure-starcraft-ii) how to install & configure it)
 - Rust and Cargo installed on your machine (see [here](https://www.rust-lang.org/tools/install) how to install it (using rustup is recommended)
-- some IDE (RustRover is a great choice) and basic knowledge of Rust
+- some IDE ([RustRover](https://www.jetbrains.com/rust/) is a great choice) and basic knowledge of Rust
 
 ## Setting up the project
 ### 1. Project & dependencies
