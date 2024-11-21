@@ -54,7 +54,7 @@ Here are some options:
 - Rust:
     - [rust-sc2](https://github.com/UltraMachine/rust-sc2) (tested)
 - Go:
-    - [gp-sc2ai](https://github.com/chippydip/go-sc2ai) (not tested)
+    - [go-sc2ai](https://github.com/chippydip/go-sc2ai) (not tested)
 - Java:
     - [ocraft-s2client](https://github.com/ocraft/ocraft-s2client) (not tested)
 - C++:
