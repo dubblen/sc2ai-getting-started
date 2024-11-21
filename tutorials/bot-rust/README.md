@@ -109,12 +109,23 @@ Set `WINE` environment variable if you want to use a specific wine binary:
 ```bash
 export WINE="/home/nathan/.config/heroic/tools/wine/Wine-GE-latest/bin/wine64"
 ```
+And just run the bot that should start the game and connect into it itself:
 ```bash
 cargo run --features wine_sc2
 ```
 ##### Windows and MacOS
+Just simply start the bot:
 ```bash
 cargo run
 ```
+
+### 4. Build the bot for a leadder game
+Run the build command with:
+```bash
+cargo build
+```
+It will create new directory `target` with another directory `debug` inside it. There should be a new binnary executable called `my_bot` (or `my_bot.exe` if you are on Windows).
+This is the file that you will upload to the compatition.
+
 
 You can find this code in the [Example nodejs bot](../../examples/rust-bot) directory.
