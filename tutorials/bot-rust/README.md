@@ -83,7 +83,7 @@ export SC2PATH="/home/myname/Games/wineprefix/drive_c/Program Files (x86)/StarCr
 ```
 
 #### Enable Wine feature (Linux only)
-Enable wine feature by adding this block anywhere into the `Cargo.toml` file:
+Enable wine feature by adding this block into the `Cargo.toml` file:
 ```toml
 [features]
 wine_sc2 = ["rust-sc2/wine_sc2"]
