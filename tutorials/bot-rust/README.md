@@ -133,7 +133,7 @@ Put [this mod.rs](https://raw.githubusercontent.com/dubblen/sc2ai-getting-starte
 curl -o src/ex_main/mod.rs https://raw.githubusercontent.com/dubblen/sc2ai-getting-started/refs/heads/main/examples/rust/src/ex_main/mod.rs
 ```
 
-Add dependency required by the `ex_main` wrapper to the `Cargo.toml`:
+Add `clap` dependency required by the `ex_main` wrapper to the `Cargo.toml`:
 ```toml
 [dependencies]
 rust-sc2 = { git = "https://github.com/UltraMachine/rust-sc2" }
