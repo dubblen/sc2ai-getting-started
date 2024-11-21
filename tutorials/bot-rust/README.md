@@ -11,7 +11,7 @@ and the [rust-sc2](https://github.com/UltraMachine/rust-sc2) library.
 
 ## Setting up the project
 ### 1. Project & dependencies
-#### Create a new project directory, initialize it with cargo and move to it:
+#### Create a new project directory, initialize it with cargo and move into it:
 ```bash
 cargo new my_bot; cd my_bot
 ```
