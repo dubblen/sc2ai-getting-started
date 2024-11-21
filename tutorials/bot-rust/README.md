@@ -11,19 +11,15 @@ and the [rust-sc2](https://github.com/UltraMachine/rust-sc2) library.
 
 ## Setting up the project
 ### 1. Project & dependencies
-#### Create a new project directory and initialize it with cargo:
+#### Create a new project directory, initialize it with cargo and move to it:
 ```bash
-cargo new my_bot
-```
-#### Move to the project directory:
-```bash
-cd my_bot
+cargo new my_bot; cd my_bot
 ```
 
 #### Add sc2-rust library dependenci to Cargo.toml:
 ```bash
 # open Cargo.toml with your favourite text editor
-nano  Cargo.toml
+nano Cargo.toml
 ```
 
 Add `rust-sc2 = "1"` to the `[dependencies]` block.
