@@ -52,7 +52,7 @@ Here are some options:
 - Python:
     - [python-sc2](https://github.com/BurnySc2/python-sc2) (tested)
 - Rust:
-    - [rust-sc2](https://github.com/UltraMachine/rust-sc2) (not tested)
+    - [rust-sc2](https://github.com/UltraMachine/rust-sc2) (tested)
 - Go:
     - [gp-sc2ai](https://github.com/chippydip/go-sc2ai) (not tested)
 - Java:
@@ -69,6 +69,7 @@ and installing the necessary dependencies.
 We have prepared tutorials for some of the most popular languages:
 
 - [Node & node-sc2](./tutorials/bot-node/README.md)
+- [Rust & rust-sc2](./tutorials/bot-rust/README.md)
 - others TBD
 
 
