@@ -182,7 +182,7 @@ Run the build command with:
 cargo build
 ```
 It will create new directory `target` with another directory `debug` inside it. There should be a new binnary executable called `my_bot` (or `my_bot.exe` if you are on Windows).
-This is the file that you will upload to the compatition.
+This is the file that you will upload to the competition.
 
 
 You can find this code in the [Example rust bot](../../examples/rust) directory.
