@@ -1,0 +1,10 @@
+[package]
+name = "my_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rust-sc2 = { git = "https://github.com/UltraMachine/rust-sc2" }
+
+[features]
+wine_sc2 = ["rust-sc2/wine_sc2"]
