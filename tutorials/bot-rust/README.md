@@ -1,4 +1,4 @@
-# NodeJs bot development
+# Rust bot development
 
 This tutorial will guide you through setting up a development environment for creating a StarCraft II bot using Rust
 and the [rust-sc2](https://github.com/UltraMachine/rust-sc2) library.
