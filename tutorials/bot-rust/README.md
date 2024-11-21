@@ -71,7 +71,7 @@ fn main() -> SC2Result<()> {
 #### Replace the map name
 Look into your Starcraft 2 install path and find the `maps` directory. Choose one of the maps and paste it's filename into the code.
 
-**If there is not the `maps` directory:**
+#### If there is not the `maps` directory
 
 Create the `maps` directory in the Starcraft 2 install path and put there some maps that you can download [here](https://aiarena.net/wiki/184/plugin/attachments/download/39/).
 
