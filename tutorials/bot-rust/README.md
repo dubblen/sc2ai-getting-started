@@ -179,9 +179,9 @@ You can print the full help message with `--help` command line argument.
 
 Run the build command with:
 ```bash
-cargo build
+cargo build --release
 ```
-It will create new directory `target` with another directory `debug` inside it. There should be a new binnary executable called `my_bot` (or `my_bot.exe` if you are on Windows).
+It will create new directory `target` with another directory `release` inside it. There should be a new binnary executable called `my_bot` (or `my_bot.exe` if you are on Windows).
 This is the file that you will upload to the competition.
 
 
